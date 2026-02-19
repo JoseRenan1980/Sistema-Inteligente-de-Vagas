@@ -1,0 +1,31 @@
+{
+  "system": "Sistema Inteligente de Vagas",
+  "version": "1.0",
+  "author": "José Renan",
+  "description": "Modelo estruturado de análise e priorização de vagas baseado em critérios profissionais e compatibilidade curricular.",
+  "filters": {
+    "salary_min": 2000,
+    "benefits_required": true,
+    "max_post_days": 7,
+    "min_match": 60,
+    "strict_match": 70
+  },
+  "classification": {
+    "rigorous": ">=70",
+    "opportunity": "60-69"
+  },
+  "location_priority": [
+    "Benedito Bentes",
+    "Santa Lúcia",
+    "Antares",
+    "Cidade Universitária"
+  ],
+  "rules": {
+    "exclude_if": [
+      "no salary",
+      "no benefits",
+      "expired",
+      "incompatible requirements"
+    ]
+  }
+}

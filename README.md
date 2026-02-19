@@ -194,3 +194,8 @@ automacao
 inteligencia
 filtros
 carreira
+
+
+👤 Bio de Autor
+
+Profissional com perfil analítico e visão estratégica, especializado na estruturação de sistemas lógicos aplicados a processos, decisão e otimização. Criador do projeto Sistema Inteligente de Vagas, modelo de análise profissional inspirado em metodologias de recrutamento e inteligência de dados.

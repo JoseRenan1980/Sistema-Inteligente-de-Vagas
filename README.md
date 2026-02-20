@@ -206,3 +206,36 @@ Profissional com perfil analítico e visão estratégica, especializado na estru
 ![Arquitetura](architecture/system-flow.png)
 
 O sistema executa um pipeline estruturado de coleta, filtragem, análise e priorização de vagas baseado em critérios de compatibilidade e relevância estratégica.
+
+## Demonstração
+
+![Demonstração](demo/sistema_demo.gif)
+
+
+## Exemplo de Resultado
+
+Arquivo de exemplo gerado pelo sistema:
+
+📄 examples/exemplo_planilha.xlsx
+
+
+## Fontes de Coleta de Vagas
+
+O sistema pode coletar oportunidades a partir de:
+
+- Portais corporativos
+- Plataformas de recrutamento
+- Sites de emprego
+- Redes profissionais
+- Classificados regionais
+
+- ## Como Contribuir
+
+Contribuições são bem-vindas.
+
+1. Fork o projeto
+2. Crie uma branch
+3. Faça suas alterações
+4. Abra um Pull Request
+
+Sugestões, melhorias e ideias também podem ser enviadas via Issues.

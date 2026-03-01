@@ -2,6 +2,11 @@
 
 Sistema estruturado de inteligência aplicada que analisa, filtra e prioriza oportunidades profissionais com base em critérios técnicos, estratégicos e probabilísticos.
 
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0--demo-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Stage](https://img.shields.io/badge/stage-distribution-success)
+
 ---
 
 ## Visão Geral

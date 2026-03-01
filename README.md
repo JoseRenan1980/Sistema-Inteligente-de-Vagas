@@ -1,241 +1,121 @@
-# Sistema-Inteligente-de-Vagas
+# Sistema Inteligente de Vagas
+
 Sistema estruturado de inteligência aplicada que analisa, filtra e prioriza oportunidades profissionais com base em critérios técnicos, estratégicos e probabilísticos.
 
-# README — Sistema Inteligente de Monitoramento de Vagas
+---
 
 ## Visão Geral
 
-Projeto de arquitetura lógica que define um agente inteligente capaz de buscar, filtrar e priorizar vagas de emprego com base em critérios profissionais, compatibilidade curricular e probabilidade real de contratação.
+O Sistema Inteligente de Vagas é um motor lógico de decisão projetado para simular a análise de um recrutador profissional.  
+Ele identifica oportunidades relevantes, elimina vagas de baixa qualidade e prioriza candidaturas com maior probabilidade real de contratação.
 
 ---
 
-## Objetivo
-
-Criar um modelo estruturado de análise de vagas que supere filtros tradicionais de plataformas de emprego, aplicando lógica semelhante a sistemas internos de recrutamento.
-
----
-
-## Diferenciais do Projeto
-
-* Sistema de pontuação de compatibilidade (ATS Match)
-* Classificação automática de oportunidades
-* Priorização cronológica inteligente
-* Filtros rigorosos de qualidade
-* Análise logística de deslocamento
-* Avaliação estratégica de concorrência
+## Versão Atual
+**v4.0 — Estável**
 
 ---
 
-## Arquitetura Lógica
+## Principais Recursos
 
-O sistema opera com base em camadas:
-
-1. Coleta de vagas
-2. Validação de critérios obrigatórios
-3. Análise de compatibilidade
-4. Classificação de prioridade
-5. Ordenação inteligente
-6. Geração de relatório estruturado
-
----
-
-## Classificação Interna
-
-Vagas são separadas automaticamente em:
-
-* Rigorosas — alta probabilidade de aprovação
-* Oportunidades — candidaturas estratégicas
+- Score de compatibilidade ATS
+- Classificação automática de vagas
+- Modo Rigoroso e Oportunidade
+- Priorização regional inteligente
+- Análise de concorrência estimada
+- Perfil comportamental da vaga
+- Filtro anti-vagas genéricas
+- Scanner de páginas corporativas
 
 ---
 
-## Estrutura de Saída
+## Arquitetura do Sistema
 
-A saída do sistema é uma tabela analítica contendo múltiplas métricas, incluindo:
+O motor funciona por pipeline de decisão:
 
-* Compatibilidade percentual
-* Benefícios confirmados
-* Distância e tempo de trajeto
-* Tipo de contrato
-* Perfil comportamental
-* Concorrência estimada
-
----
-
-## Aplicações
-
-Este modelo pode ser usado para:
-
-* automação de busca de vagas
-* sistemas de recrutamento
-* análise de mercado de trabalho
-* ferramentas de RH
-* projetos de IA aplicada
-
----
-
-## Status do Projeto
-
-Arquitetura completa e funcional em nível lógico e estrutural.
-Pronto para implementação em software, API ou automação.
-
----
-
-# DESCRIÇÃO DO PROJETO
-
-Sistema conceitual de inteligência aplicada à busca de emprego que simula o comportamento de um headhunter digital. Ele analisa oportunidades, elimina vagas irrelevantes e prioriza apenas aquelas com alta probabilidade real de contratação.
-
-O projeto demonstra modelagem de requisitos, lógica de decisão, arquitetura de filtros e estruturação de dados aplicada a problemas reais.
-
----
-
-# DOCUMENTAÇÃO TÉCNICA
-
-## Motor de Decisão
-
-O algoritmo utiliza regras condicionais sequenciais:
-
-1. Filtro eliminatório
+1. Coleta
 2. Validação obrigatória
-3. Cálculo de aderência
-4. Classificação
-5. Ordenação
+3. Filtragem eliminatória
+4. Análise de compatibilidade
+5. Classificação
+6. Priorização
+7. Geração de relatório
+
+---
+
+## Classificação de Vagas
+
+| Tipo | Definição |
+|-----|-----------|
+Rigoroso | atende 100% dos critérios |
+Oportunidade | atende parcialmente |
 
 ---
 
 ## Variáveis Avaliadas
 
-* salário
-* benefícios
-* compatibilidade curricular
-* localização
-* tempo de publicação
-* requisitos
-* concorrência
-* perfil comportamental
+- salário
+- benefícios
+- localização
+- compatibilidade curricular
+- requisitos
+- concorrência
+- tempo de publicação
+- perfil comportamental
 
 ---
 
-## Regras de Exclusão
+## Regras Eliminatórias
 
-Uma vaga é descartada se:
+Uma vaga é descartada automaticamente se:
 
-* não possuir salário
-* não possuir benefícios
-* exigir requisitos incompatíveis
-* estiver expirada
-
----
-
-## Sistema de Pontuação
-
-Compatibilidade calculada por correspondência semântica entre:
-
-* competências
-* requisitos
-* área
-* senioridade
+- não possuir salário informado
+- não possuir benefícios
+- exigir veículo próprio
+- exigir CNH categoria A
+- estiver expirada
 
 ---
 
-# APRESENTAÇÃO PARA RECRUTADORES
+## Estrutura de Saída
 
-## Resumo Executivo
+O sistema gera relatórios analíticos contendo:
 
-Desenvolvi um modelo lógico de sistema inteligente capaz de analisar vagas de emprego com critérios profissionais equivalentes a ferramentas internas de recrutamento.
-
-O projeto demonstra habilidades de:
-
-* análise estruturada
-* pensamento sistêmico
-* modelagem lógica
-* definição de requisitos
-* otimização de processos
+- score de compatibilidade
+- prioridade de candidatura
+- nível de concorrência
+- classificação da vaga
+- benefícios confirmados
+- distância e tempo de deslocamento
 
 ---
 
-## Competências Demonstradas
+## Fontes Monitoradas
 
-* Raciocínio analítico
-* Organização de dados
-* Planejamento estratégico
-* Visão sistêmica
-* Tomada de decisão baseada em critérios
+O sistema pode coletar vagas de:
 
----
-
-## Diferencial Profissional
-
-Este projeto evidencia capacidade de estruturar soluções inteligentes para problemas reais, utilizando metodologia comparável à aplicada em ambientes corporativos e tecnológicos.
+- portais de emprego
+- sites corporativos
+- plataformas governamentais
+- classificados regionais
+- páginas "Trabalhe Conosco"
 
 ---
 
-## Posicionamento
+## Status do Projeto
 
-Projeto ideal para demonstrar perfil profissional voltado para:
-
-* análise
-* processos
-* operações
-* tecnologia
-* gestão
+Arquitetura concluída  
+Sistema funcional  
+Modo replicável ativo  
+Pronto para distribuição
 
 ---
 
-## Conclusão
+## Instalação
 
-Este repositório representa não apenas um projeto, mas um modelo replicável de sistema de decisão aplicado ao mercado de trabalho.
+Clone o repositório:
 
-
-empregos
-recrutamento
-analise-de-dados
-logica
-automacao
-inteligencia
-filtros
-carreira
+```bash
+git clone https://github.com/SEU-USUARIO/NOME-REPOSITORIO.git
 
 
-👤 Bio de Autor
-
-Profissional com perfil analítico e visão estratégica, especializado na estruturação de sistemas lógicos aplicados a processos, decisão e otimização. Criador do projeto Sistema Inteligente de Vagas, modelo de análise profissional inspirado em metodologias de recrutamento e inteligência de dados.
-
-
-## Arquitetura do Sistema
-
-![Arquitetura](architecture/system-flow.png)
-
-O sistema executa um pipeline estruturado de coleta, filtragem, análise e priorização de vagas baseado em critérios de compatibilidade e relevância estratégica.
-
-## Demonstração
-
-![Demonstração](demo/sistema_demo.gif)
-
-
-## Exemplo de Resultado
-
-Arquivo de exemplo gerado pelo sistema:
-
-📄 examples/exemplo_planilha.xlsx
-
-
-## Fontes de Coleta de Vagas
-
-O sistema pode coletar oportunidades a partir de:
-
-- Portais corporativos
-- Plataformas de recrutamento
-- Sites de emprego
-- Redes profissionais
-- Classificados regionais
-
-- ## Como Contribuir
-
-Contribuições são bem-vindas.
-
-1. Fork o projeto
-2. Crie uma branch
-3. Faça suas alterações
-4. Abra um Pull Request
-
-Sugestões, melhorias e ideias também podem ser enviadas via Issues.

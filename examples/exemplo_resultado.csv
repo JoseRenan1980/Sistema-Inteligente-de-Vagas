@@ -1,0 +1,4 @@
+cargo,empresa,salario,beneficios,ats_score,classificacao,prioridade,concorrencia,perfil
+Assistente Administrativo,Empresa Alfa,2500,VT+VR,82,Rigoroso,Alta,Baixa,Organizado
+Auxiliar Logístico,Empresa Beta,2100,VT+VR,76,Oportunidade,Média,Média,Proativo
+Atendente Comercial,Empresa Gama,2300,VT+VR,88,Rigoroso,Alta,Baixa,Comunicativo

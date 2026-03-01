@@ -1,0 +1,52 @@
+{
+  "versao": "4.0",
+  "modo": "operacional",
+  "salario_minimo": 2000,
+  "ats_minimo": 70,
+  "beneficios_obrigatorios": ["VT","VR"],
+  "cnh_excluidas": ["A"],
+  "veiculo_proprio_exclui": true,
+
+  "localizacao": {
+    "prioritarios": [
+      "Benedito Bentes",
+      "Santa Lúcia",
+      "Antares",
+      "Cidade Universitária",
+      "Tabuleiro do Martins",
+      "Santos Dumont"
+    ],
+    "modo_regional": true
+  },
+
+  "tipos_contrato": ["CLT","Temporário"],
+
+  "modalidades": [
+    "Presencial",
+    "Home Office",
+    "Híbrido"
+  ],
+
+  "areas_permitidas": [
+    "Administrativo",
+    "Financeiro",
+    "Atendimento",
+    "Vendas",
+    "Logística",
+    "Tecnologia Inicial",
+    "Segurança do Trabalho não técnica"
+  ],
+
+  "priorizacao": [
+    "localizacao",
+    "ats",
+    "beneficios",
+    "salario",
+    "concorrencia"
+  ],
+
+  "classificacao": {
+    "rigoroso": "100%",
+    "oportunidade": "1 requisito faltante"
+  }
+}

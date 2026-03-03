@@ -1,11 +1,12 @@
+
 # Sistema Inteligente de Vagas
 
 Sistema estruturado de inteligência aplicada que analisa, filtra e prioriza oportunidades profissionais com base em critérios técnicos, estratégicos e probabilísticos.
 
 ![Status](https://img.shields.io/badge/status-stable-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0.0--demo-blue)
+![Version](https://img.shields.io/badge/version-4.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
-![Stage](https://img.shields.io/badge/stage-distribution-success)
+![Stage](https://img.shields.io/badge/stage-operational-success)
 
 ---
 
@@ -17,43 +18,79 @@ Ele identifica oportunidades relevantes, elimina vagas de baixa qualidade e prio
 ---
 
 ## Versão Atual
-**v4.0 — Estável**
+**v4.0 — Estável (Arquitetura Modular Hierárquica)**
 
 ---
 
 ## Principais Recursos
 
 - Score de compatibilidade ATS
-- Classificação automática de vagas
-- Modo Rigoroso e Oportunidade
-- Priorização regional inteligente
+- Classificação automática (Rigoroso / Oportunidade)
+- Filtro Rigoroso (Alta Precisão)
+- Busca Ampliada (Expansão Geográfica)
+- Modo Parcial Inteligente (Expansão Lógica Controlada)
+- Priorização regional estratégica
 - Análise de concorrência estimada
 - Perfil comportamental da vaga
-- Filtro anti-vagas genéricas
 - Scanner de páginas corporativas
+- Geração automática de relatório estruturado + Excel (.xlsx)
 
 ---
 
-## Arquitetura do Sistema
+## Arquitetura do Sistema — v4.0
 
-O motor funciona por pipeline de decisão:
+O sistema opera em três camadas sequenciais:
 
-1. Coleta
-2. Validação obrigatória
-3. Filtragem eliminatória
-4. Análise de compatibilidade
-5. Classificação
-6. Priorização
-7. Geração de relatório
+### 1️⃣ Filtro Rigoroso (Alta Precisão)
+
+Critérios obrigatórios:
+- Salário ≥ R$ 2000
+- VT + VR obrigatórios
+- ATS ≥ 70%
+- Link obrigatório
+- ID da vaga obrigatório
+- Exclusão de CNH categoria A
+- Exclusão de veículo próprio
+
+Regra especial:
+- Benedito Bentes pode aceitar salário mínimo mesmo sem benefícios
+
+---
+
+### 2️⃣ Busca Ampliada (Expansão Geográfica)
+
+Aplicada após o filtro rigoroso.
+
+Regras:
+- Fora de Maceió → Salário ≥ R$ 2500 + VR/VA + plano de saúde + seguro de vida
+- Fora de Alagoas → Salário ≥ R$ 3000 + pacote completo de benefícios
+
+---
+
+### 3️⃣ Modo Parcial Inteligente (Expansão Controlada)
+
+Aplicado após a busca ampliada.
+
+Núcleo inegociável:
+- ATS ≥ 70%
+- Salário ≥ R$ 2000
+
+Exclusões absolutas:
+- CNH categoria A
+- Veículo próprio
+
+Flexibilização:
+- Benefícios podem não estar especificados publicamente
+- Pode falhar em apenas 1 requisito leve
 
 ---
 
 ## Classificação de Vagas
 
 | Tipo | Definição |
-|-----|-----------|
-Rigoroso | atende 100% dos critérios |
-Oportunidade | atende parcialmente |
+|------|-----------|
+| Rigoroso | Atende 100% dos critérios obrigatórios |
+| Oportunidade | Atende núcleo mínimo do modo parcial |
 
 ---
 
@@ -62,42 +99,30 @@ Oportunidade | atende parcialmente |
 - salário
 - benefícios
 - localização
-- compatibilidade curricular
-- requisitos
-- concorrência
+- compatibilidade curricular (ATS)
+- requisitos técnicos
+- concorrência estimada
 - tempo de publicação
 - perfil comportamental
 
 ---
 
-## Regras Eliminatórias
-
-Uma vaga é descartada automaticamente se:
-
-- não possuir salário informado
-- não possuir benefícios
-- exigir veículo próprio
-- exigir CNH categoria A
-- estiver expirada
-
----
-
 ## Estrutura de Saída
 
-O sistema gera relatórios analíticos contendo:
+O sistema gera:
 
+- tabela analítica completa
 - score de compatibilidade
-- prioridade de candidatura
-- nível de concorrência
+- score de prioridade de candidatura
+- nível de concorrência estimado
 - classificação da vaga
 - benefícios confirmados
 - distância e tempo de deslocamento
+- arquivo Excel (.xlsx)
 
 ---
 
 ## Fontes Monitoradas
-
-O sistema pode coletar vagas de:
 
 - portais de emprego
 - sites corporativos
@@ -109,10 +134,10 @@ O sistema pode coletar vagas de:
 
 ## Status do Projeto
 
-Arquitetura concluída  
-Sistema funcional  
-Modo replicável ativo  
-Pronto para distribuição
+Arquitetura modular concluída  
+Versão 4.0 validada  
+Modo operacional contínuo ativo  
+Sistema replicável e escalável  
 
 ---
 
@@ -122,5 +147,3 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/SEU-USUARIO/NOME-REPOSITORIO.git
-
-
